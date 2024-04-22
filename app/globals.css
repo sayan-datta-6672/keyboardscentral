@@ -1,33 +1,279 @@
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F6pfjptAgt5VM-kVkqdyU8n3kwa1XdgregdFA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3uALwlBFgsAXHNk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3oQIwlBFgsAXHNk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1i8q131nj-o.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgsAXHNk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3vAOwlBFgsAXHNk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F6qfjptAgt5VM-kVkqdyU8n3pQPwlBFgsAXHNk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'IBM Plex Mono';
+}
+
+main {
+  transition: 0.1s ease-in-out;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: large;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  font-size: medium;
+}
+
+.dark-mode {
+  color: #fff;
+  background: linear-gradient(0.25turn, #0c0a10, #322c3f, #222027, #4b4357, #2c2533);
+  background-size: 200% 200%;
+}
+
+.light-mode {
+  color: #0c0a10;
+  background: linear-gradient(0.25turn, #f3e5f5, #e6d8eb, #d9c7e7, #c9b4e2, #dfd3f3);
+  background-size: 100% 100%;
+  animation: light-mode 10s ease infinite;
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.toggle-container {
+  width: 30px;
+  height: 20px;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+  margin-right: 20px;
+  box-shadow: -1px 3px 22px 0px rgba(122, 122, 122, 0.75);
+}
+
+/* Style 1 */
+.toggle-container {
+  border-radius: 30px;
+}
+
+.switch {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  display: block;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease;
+}
+
+.dark-mode .switch {
+  transform: translateX(calc(100px - 90px));
+  border: 1px solid #000000;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark-mode .toggle-container {
+  background-color: #383738;
+}
+
+.nav-tabs {
+  /* --bs-nav-tabs-border-width: var(--bs-border-width); */
+  --bs-nav-tabs-border-color: #3f2b53;
+  /* --bs-nav-tabs-border-radius: var(--bs-border-radius); */
+  --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
+  /* --bs-nav-tabs-link-active-color: #fff; */
+  --bs-nav-tabs-link-active-bg: #a386c06e;
+  --bs-nav-link-color: #000;
+  --bs-nav-tabs-link-active-border-color: #3f2b53;
+  border-bottom: #3f2b53;
+}
+
+.nav-tabs .nav-link {
+  border: var(--bs-nav-tabs-border-width) solid #3f2b53;
+}
+
+.nav-tabs .nav-link:hover {
+  font-weight: bold;
+  color: #000;
+  border: var(--bs-nav-tabs-border-width) solid #3f2b53;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+}
+
+.card-body {
+  background: radial-gradient(#dad2e7, #f3e5f5);
+  border-radius: 5px;
+  cursor: pointer;
+  /* border: solid 1px #1c162261; */
+}
+
+.card-body:hover {
+  color: #656565;
+}
+
+.dark-mode .nav-tabs {
+  /* --bs-nav-tabs-border-width: var(--bs-border-width); */
+  --bs-nav-tabs-border-color: #3f2b53;
+  /* --bs-nav-tabs-border-radius: var(--bs-border-radius); */
+  --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
+  --bs-nav-tabs-link-active-color: #fff;
+  --bs-nav-tabs-link-active-bg: #a386c06e;
+  --bs-nav-link-color: #fff;
+  /* --bs-nav-tabs-link-active-border-color: #c5c5c5; */
+  border-bottom: #c5c5c5;
+} 
+
+.dark-mode .nav-tabs .nav-link:hover {
+  color: #fff;
+  border: var(--bs-nav-tabs-border-width) solid #b6b6b65e;
+}
+
+.dark-mode .card-body {
+  background: radial-gradient(#2a2637, #303030);
+  color: #fff;
+}
+
+.dark-mode .card-body:hover {
+  color: #b0b0b0;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: initial;
+  appearance: initial;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #000;
+  position: relative;
+}
+input[type="checkbox"]:checked {
+  /* background: #000; */
+}
+input[type="checkbox"]:checked:after {
+  /* Heres your symbol replacement */
+  content: "X";
+  color: #000;
+  /* The following positions my tick in the center, 
+   * but you could just overlay the entire box
+   * with a full after element with a background if you want to */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /*
+   * If you want to fully change the check appearance, use the following:
+   * content: " ";
+   * width: 100%;
+   * height: 100%;
+   * background: blue;
+   * top: 0;
+   * left: 0;
+   */
+}
+
+.dark-mode input[type="checkbox"]{
+  border: solid 1px #fff;
+}
+
+.dark-mode input[type="checkbox"]:checked:after {
+  color: #fff;
+}
+
+.dark-mode-modal .modal-content {
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #c5c5c561;
+}
+
+.btn-close {
+  background: #ffffff var(--bs-btn-close-bg) center / 1em auto no-repeat;
 }

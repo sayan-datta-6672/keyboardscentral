@@ -1,0 +1,688 @@
+{
+    "Mechanical_Keyboards": {
+        "Coding": [
+            {
+                "name": "Keychron K8",
+                "description": "A TKL (Tenkeyless) keyboard with wireless and wired connectivity options. It has brown switches, which are quiet and tactile, making it suitable for coding and typing.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "I love my Keychron K8. It's a great keyboard for programming, and the wireless connectivity is a nice feature.",
+                            "author_ID": "u/johnsmith123",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "https://amzn.to/49OyZGT",
+                        "price": "16753.00",
+                        "currency": "INR",
+                        "thumbnail": "https://m.media-amazon.com/images/I/71G1Z3ybbKL._SX679_.jpg"
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Keychron Q1",
+                "description": "A high-end keyboard with a hot-swappable design and a variety of switch options. It has a compact layout and is customizable.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Keychron Q1 is a fantastic keyboard for coding. The hot-swappable feature is a game-changer, and the build quality is excellent.",
+                            "author_ID": "u/programmerdude",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Ducky One 2 Mini",
+                "description": "A compact 60% keyboard with brown switches. It has a minimalistic design and is programmable, making it a good choice for coding.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "I've been using the Ducky One 2 Mini for coding, and it's been great. The compact layout is perfect for my setup.",
+                            "author_ID": "u/codingfanatic",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Glorious GMMK Pro",
+                "description": "A 75% keyboard with hot-swappable switches, allowing for customization. It has a variety of switch options, including brown switches.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Glorious GMMK Pro is a great keyboard for coding. The hot-swappable switches make it easy to customize, and the build quality is excellent.",
+                            "author_ID": "u/gloriousgeek",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Drop CTRL",
+                "description": "A TKL keyboard with hot-swappable switches and a variety of switch options, including brown switches. It has a sleek design and is built with high-quality materials.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Drop CTRL is a fantastic keyboard for coding. The hot-swappable switches make it easy to customize, and the build quality is excellent.",
+                            "author_ID": "u/dropthekeyboard",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                          "comment": "",
+                          "author_ID": "",
+                          "subreddit_ID": ""
+                        }
+                      ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Leopold FC660C",
+                "description": "A 65% keyboard with Topre switches, which are known for their tactile feedback and durability. It has a compact design and is suitable for coding.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Leopold FC660C is a great keyboard for coding. The Topre switches are excellent, and the compact design is perfect for my setup.",
+                            "author_ID": "u/toprelover",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Vortexgear Pok3r",
+                "description": "A 60% keyboard with Cherry MX brown switches. It has a compact design and is programmable, making it a good choice for coding.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "I've been using the Vortexgear Pok3r for coding, and it's been great. The compact layout is perfect for my setup.",
+                            "author_ID": "u/pok3rfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                          "comment": "",
+                          "author_ID": "",
+                          "subreddit_ID": ""
+                        }
+                      ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Das Keyboard 4 Professional",
+                "description": "A full-sized keyboard with Cherry MX brown switches. It has a minimalistic design and is built with high-quality materials.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Das Keyboard 4 Professional is a great keyboard for coding. The Cherry MX brown switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/daskeyboardfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Cooler Master MasterKeys Pro L",
+                "description": "A TKL keyboard with Cherry MX brown switches. It has a sleek design and is built with high-quality materials.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Cooler Master MasterKeys Pro L is a great keyboard for coding. The Cherry MX brown switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/coolermasterfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Logitech MX Mechanical",
+                "description": "A full-sized keyboard with tactile switches, which are similar to brown switches. It has a sleek design and is built with high-quality materials.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Logitech MX Mechanical is a great keyboard for coding. The tactile switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/logitechfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            }
+        ],
+        "Gaming": [
+            {
+                "name": "Corsair K95 RGB Platinum XT",
+                "description": "A full-sized keyboard with Cherry MX Speed switches, which are designed for fast actuation and responsiveness. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Corsair K95 RGB Platinum XT is a fantastic keyboard for gaming. The Cherry MX Speed switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/corsairgamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Razer Huntsman Elite",
+                "description": "A full-sized keyboard with Razer's proprietary optical switches, which are designed for fast actuation and responsiveness. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Razer Huntsman Elite is a fantastic keyboard for gaming. The optical switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/razergamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "SteelSeries Apex Pro",
+                "description": "A full-sized keyboard with adjustable magnetic switches, allowing you to customize the actuation point to your preference. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The SteelSeries Apex Pro is a fantastic keyboard for gaming. The adjustable switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/steelseriesfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Logitech G915 Lightspeed",
+                "description": "A full-sized keyboard with low-profile GL switches, which are designed for fast actuation and responsiveness. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Logitech G915 Lightspeed is a fantastic keyboard for gaming. The low-profile switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/logitechgamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "HyperX Alloy Origins Core",
+                "description": "A TKL keyboard with HyperX Red switches, which are designed for fast actuation and responsiveness. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The HyperX Alloy Origins Core is a fantastic keyboard for gaming. The HyperX Red switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/hyperxgamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Roccat Vulcan 120 Aimo",
+                "description": "A full-sized keyboard with Roccat's proprietary Titan switches, which are designed for fast actuation and responsiveness. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Roccat Vulcan 120 Aimo is a fantastic keyboard for gaming. The Titan switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/roccatgamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Asus ROG Strix Scope TKL Deluxe",
+                "description": "A TKL keyboard with Cherry MX Red switches, which are designed for fast actuation and responsiveness. It has a variety of gaming-focused features, including macro keys and RGB lighting.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Asus ROG Strix Scope TKL Deluxe is a fantastic keyboard for gaming. The Cherry MX Red switches are excellent, and the build quality is top-notch.",
+                            "author_ID": "u/asusgamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Aukey KM-G14",
+                "description": "A compact keyboard with blue switches, which are tactile and clicky. It has a minimalistic design and is budget-friendly.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Aukey KM-G14 is a great keyboard for gaming. The blue switches are excellent, and the build quality is top-notch for the price.",
+                            "author_ID": "u/aukeygamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Redragon K552-RGB",
+                "description": "A compact keyboard with Outemu Blue switches, which are tactile and clicky. It has a minimalistic design and is budget-friendly.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Redragon K552-RGB is a great keyboard for gaming. The Outemu Blue switches are excellent, and the build quality is top-notch for the price.",
+                            "author_ID": "u/reddragongamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            },
+            {
+                "name": "Velocifire TKL02WS",
+                "description": "A TKL keyboard with brown switches, which are tactile and quiet. It has a minimalistic design and is budget-friendly.",
+                "comments": {
+                    "positive_comments": [
+                        {
+                            "comment": "The Velocifire TKL02WS is a great keyboard for gaming. The brown switches are excellent, and the build quality is top-notch for the price.",
+                            "author_ID": "u/velocifiregamingfan",
+                            "subreddit_ID": "r/MechanicalKeyboards"
+                        }
+                    ],
+                    "negative_comments": [
+                        {
+                            "comment": "",
+                            "author_ID": "",
+                            "subreddit_ID": ""
+                        }
+                    ]
+                },
+                "product_info": {
+                    "amazon": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    },
+                    "flipkart": {
+                        "link": "",
+                        "price": "",
+                        "currency": "",
+                        "thumbnail": ""
+                    }
+                }
+            }
+        ]
+    }
+}

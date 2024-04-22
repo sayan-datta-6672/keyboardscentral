@@ -1,112 +1,151 @@
+"use client"
+import { useEffect, useState } from "react";
+import data from "../data/comments.json";
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
+  const [mode, setMode] = useState('light-mode');
+  const [key, setKey] = useState('coding');
+  const [show, setShow] = useState(false);
+  const [masterInfo, setMasterInfo] = useState({})
+
+  const handleClose = () => {
+    setMasterInfo({})
+    setShow(false)
+  };
+  const handleShow = (info) => {
+    console.log(info)
+    setMasterInfo(info)
+    setShow(true)
+  };
+
+  const toggleMode = () => {
+    setMode((prevMode) => (prevMode === 'light-mode' ? 'dark-mode' : 'light-mode'));
+  };
+
+  const CardRow = (data) => {
+    let info = data.data;
+    return (
+      <Card className="mb-2 m-auto w-50">
+        <Card.Body>
+          <Card.Img className="w-1/4 mb-4 p-3 inline-block align-top" src={info.product_info.amazon.thumbnail} />
+          <div className="inline-block w-3/4 justify-normal">
+            <Card.Title>
+              <Link className=" text-blue-400" target="_blank" href={info.product_info.amazon.link}>{info.name}</Link>
+            </Card.Title>
+            <Card.Subtitle>{info.product_info.amazon.currency} {info.product_info.amazon.price}</Card.Subtitle>
+            <Card.Text className="mt-3">
+              {info.description}
+              <span className="block mt-4" onClick={() => handleShow(info)}>See Reviews</span>
+            </Card.Text>
+          </div>
+        </Card.Body>
+      </Card>
+    )
+  }
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className={`min-h-screen flex-col items-center justify-between p-5 ${mode}`}>
+      <div className="float-right">
+        <div className="toggle-container cursor-pointer" onClick={toggleMode}>
+          <span className={`switch ${mode}`}></span>
         </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="mb-20">
+        <h1 className="uppercase">Keyboards Central</h1>
+        <h3>Your one-stop shop for all typing needs</h3>
+        {/* <p>Created By @azazel</p> */}
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div>
+        {/* <div>
+          <label class="checkbox" className="block">
+            <input type="checkbox" name="coding" />
+            <span className="checkmark mt-0 align-top"> Coding</span>
+          </label>
+          <label class="checkbox" className="block">
+            <input type="checkbox" name="gaming" />
+            <span className="checkmark mt-0 align-top"> Gaming</span>
+          </label>
+        </div> */}
+        {/* {data.Mechanical_Keyboards.Coding && data.Mechanical_Keyboards.Coding.length > 0 && (
+          data.Mechanical_Keyboards.Coding.map((value, index) => (
+            <CardRow key={`coding_${index}`} data={value} />
+          ))
+        )}
+        {data.Mechanical_Keyboards.Gaming && data.Mechanical_Keyboards.Gaming.length > 0 && (
+          data.Mechanical_Keyboards.Gaming.map((value, index) => (
+            <CardRow key={`gaming_${index}`} data={value} />
+          ))
+        )} */}
+        <Tabs
+          id="category-tab"
+          activeKey={key}
+          onSelect={(k) => setKey(k)}
+          className="mb-4"
+          justify
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          <Tab eventKey="coding" title="Coding">
+            {data.Mechanical_Keyboards.Coding && data.Mechanical_Keyboards.Coding.length > 0 && (
+              data.Mechanical_Keyboards.Coding.map((value, index) => (
+                <CardRow key={`coding_${index}`} data={value} />
+              ))
+            )}
+          </Tab>
+          <Tab eventKey="gaming" title="Gaming">
+            {data.Mechanical_Keyboards.Gaming && data.Mechanical_Keyboards.Gaming.length > 0 && (
+              data.Mechanical_Keyboards.Gaming.map((value, index) => (
+                <CardRow key={`gaming_${index}`} data={value} />
+              ))
+            )}
+          </Tab>
+        </Tabs>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <Modal show={show} onHide={handleClose} className={`modal-lg ${mode}-modal`}>
+          <Modal.Header closeButton>
+            <Modal.Title>{`Reviews on ${masterInfo.name}`}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            {masterInfo.hasOwnProperty('comments') && masterInfo.comments.hasOwnProperty('positive_comments') && masterInfo.comments.positive_comments.length > 0 && (
+              masterInfo.comments.positive_comments.map((value, index) => (
+                value.comment !== '' &&
+                <>
+                  <h2>Positive</h2>
+                  <Card key={index} className="mb-2 mt-2 m-auto">
+                    <Card.Body>
+                      <Card.Text>
+                        {value.comment}
+                      </Card.Text>
+                      <Card.Text><small>{`Posted by ${value.author_ID} on ${value.subreddit_ID}`}</small></Card.Text>
+                    </Card.Body>
+                  </Card>
+                </>
+              ))
+            )}{masterInfo.hasOwnProperty('comments') && masterInfo.comments.hasOwnProperty('negative_comments') && masterInfo.comments.negative_comments.length > 0 && (
+              masterInfo.comments.negative_comments.map((value, index) => (
+                value.comment !== '' &&
+                <>
+                  <h2>Negative</h2>
+                  <Card key={index} className="mb-2 mt-2 m-auto">
+                    <Card.Body>
+                      <Card.Text>
+                        {value.comment}
+                      </Card.Text>
+                      <Card.Text><small>{`Posted by ${value.author_ID} on ${value.subreddit_ID}`}</small></Card.Text>
+                    </Card.Body>
+                  </Card>
+                </>
+              ))
+            )}
+          </Modal.Body>
+        </Modal>
+        <footer className=" bottom-0">
+          <p className="float-right">Powered by Astermave.</p>
+        </footer>
       </div>
     </main>
   );
