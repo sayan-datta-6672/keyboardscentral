@@ -39,9 +39,9 @@ export default function Home() {
               <Link className=" text-blue-400" target="_blank" href={info.product_info.amazon.link}>{info.name}</Link>
             </Card.Title>
             <Card.Subtitle>{info.product_info.amazon.currency} {info.product_info.amazon.price}</Card.Subtitle>
-            <Card.Text className="mt-3">
+            <Card.Text className="mt-3" onClick={() => handleShow(info)}>
               {info.description}
-              <span className="block mt-4" onClick={() => handleShow(info)}>See Reviews</span>
+              {/* <span className="block mt-4">See Reviews</span> */}
             </Card.Text>
           </div>
         </Card.Body>
@@ -57,8 +57,8 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-20">
-        <h1 className="uppercase">Keyboards Central</h1>
-        <h3>Your one-stop shop for all typing needs</h3>
+        <h1 className="">KeyboardStation</h1>
+        <h3>One-stop shop for all your typing needs</h3>
         {/* <p>Created By @azazel</p> */}
       </div>
       <div>
@@ -82,6 +82,7 @@ export default function Home() {
             <CardRow key={`gaming_${index}`} data={value} />
           ))
         )} */}
+        <h2 className="font-bold mb-3 text-xl">Browse by use cases</h2>
         <Tabs
           id="category-tab"
           activeKey={key}
@@ -100,6 +101,20 @@ export default function Home() {
             {data.Mechanical_Keyboards.Gaming && data.Mechanical_Keyboards.Gaming.length > 0 && (
               data.Mechanical_Keyboards.Gaming.map((value, index) => (
                 <CardRow key={`gaming_${index}`} data={value} />
+              ))
+            )}
+          </Tab>
+          <Tab eventKey="writing" title="Writing">
+            {data.Mechanical_Keyboards.Gaming && data.Mechanical_Keyboards.Gaming.length > 0 && (
+              data.Mechanical_Keyboards.Gaming.map((value, index) => (
+                <CardRow key={`writing_${index}`} data={value} />
+              ))
+            )}
+          </Tab>
+          <Tab eventKey="multimedia" title="Multimedia">
+            {data.Mechanical_Keyboards.Gaming && data.Mechanical_Keyboards.Gaming.length > 0 && (
+              data.Mechanical_Keyboards.Gaming.map((value, index) => (
+                <CardRow key={`multimedia_${index}`} data={value} />
               ))
             )}
           </Tab>
